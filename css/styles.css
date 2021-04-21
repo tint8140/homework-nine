@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+.hero {
+  height: 400px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: black;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+.hero-content {
+  height: 350px;
+  /* background-color: rgba(100, 100, 100, 0.5); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-content h1 {
+  color: white;
+}
+.hero-content .page-name {
+  text-transform: capitalize;
+}
+.home-hero-image {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/entertainment.jpg);
+}
+.about-hero-image {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/group.jfif);
+}
+.products-hero-image {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/merchandise\ background.jfif);
+}
+.contact-hero-image {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/survivalshow.jpg);
+}
+.home {
+  /* background-color: aqua; */
+  width: 100%;
+  height: 100%;
+  margin: 50px auto;
+}
+.image-One {
+  margin: auto;
+  align-items: center;
+  justify-items: center;
+  width: 600px;
+  height: 400px;
+  background-image: url(../images/What-is-K-Pop.png);
+}
+.image-Two {
+  margin: auto;
+  align-items: center;
+  justify-items: center;
+  width: 400px;
+  height: 300px;
+  background-image: url(../images/Seo_Taiji_and_Boys.png);
+  background-repeat: no-repeat;
+}
+.image-Three {
+  margin: auto;
+  align-items: center;
+  justify-items: center;
+  width: 600px;
+  height: 400px;
+  background-image: url(../images/suicide.jpg);
+  background-repeat: no-repeat;
+}
+h1,
+h2 {
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+}
+p {
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+  font-size: 20px;
+}
+li {
+  width: 80%;
+  margin: auto;
+  font-size: 20px;
+}
+.about {
+  background-color: violet;
+}
+.artist-One {
+  margin: auto;
+  align-items: center;
+  justify-items: center;
+  width: 800px;
+  height: 200px;
+  background-image: url(../images/competition.jpg);
+}
+.artist-Two {
+  margin: auto;
+  width: 80%;
+  height: 600px;
+  background-image: url(../images/bts.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.artist-Three {
+  margin: auto;
+  width: 100%;
+  height: 400px;
+  background-image: url(../images/_116886785_blackpink.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.products {
+  background-color: aqua;
+}
+
+.merchandise-One {
+  margin: auto;
+  align-items: center;
+  justify-items: center;
+  width: 600px;
+  height: 400px;
+  background-image: url(../images/merchandise.jpg);
+}
+.merchandise-Two {
+  margin: auto;
+  width: 100%;
+  height: 500px;
+  background-image: url(../images/idolscard.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.merchandise-Three {
+  margin: auto;
+  align-items: center;
+  justify-items: center;
+  width: 600px;
+  height: 200px;
+  background-image: url(../images/lightstick.jfif);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.contact {
+  width: 100%;
+  height: 100%;
+  margin: 50px auto;
+}
+.contact-One {
+  margin: auto;
+  align-items: center;
+  justify-items: center;
+  width: 600px;
+  height: 400px;
+  background-image: url(../images/audition.jpg);
+}
+.contact-Two {
+  margin: auto;
+  width: 100%;
+  height: 500px;
+  background-image: url(../images/survivalshow.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.contact-Three {
+  margin: auto;
+  align-items: center;
+  justify-items: center;
+  width: 600px;
+  height: 200px;
+  background-image: url(../images/kpopstar.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
